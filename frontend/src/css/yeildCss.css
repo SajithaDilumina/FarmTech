@@ -1,0 +1,278 @@
+  /* More specific style to ensure print-only content is hidden in the UI */
+.only-print {
+  display: none !important;
+}
+
+@media print {
+  .only-print {
+    display: block !important;
+  }
+}
+
+  .yeild-AllCard {
+    padding: 30px;
+  }
+  
+  .yeild-AllCard-search-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  
+  .yeild-AllCard-search-input {
+    height: 35px;
+    padding: 5px;
+    border: none;
+    background-color: var(--lighter-green);
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .yeild-AllCard-search-btn {
+    width: 80px;
+    height: 35px;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .yeild-AllCard-search-box2 {
+    margin-top: 10px;
+  }
+  
+  .yeild-AllCard-btn-box {
+    display: flex;
+    gap: 20px;
+  }
+  .yeild-AllCard-add-btn {
+    height: 35px;
+    width: 120px;
+    border: none;
+    background-color: var(--dark-green);
+    border-radius: 5px;
+    padding: 0; /* Remove any default padding */
+  }
+  .yeild-AllCard-add-btn2 {
+    height: 35px;
+    width: 200px;
+    border: none;
+    background-color: var(--dark-green);
+    border-radius: 5px;
+    padding: 0; /* Remove any default padding */
+  }
+  
+  .yeild-AllCard-add-link {
+    color: white; /* Set the link text color to white */
+    text-decoration: none; /* Remove underline from the link */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .yeild-AllCard-download-btn {
+    height: 35px;
+    width: 170px;
+    border: none;
+    color: white;
+    background-color: var(--dark-green);
+    border-radius: 5px;
+  }
+  
+  .yeild-AllCard-section2-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-left: 150px;
+}
+.yeild-AllCard-section2-box .card {
+    width: 500px;
+    background-image: var(--main-grediant);
+      border-radius: 15px;
+      margin-top: 50px;
+      box-shadow: var(--box-shadow);
+  }
+  .yeild-AllCard-section2-img{
+    margin-top: 10px;
+    width: 480px;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+  }
+.yeild-AllCard-section2-title-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 150px;
+}
+.yeild-AllCard-section2-id{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: var(--dark-green);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.yeild-AllCard-section2-para{
+    color: rgb(155, 155, 155);
+}
+.yeild-AllCard-section2-rate-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.yeild-AllCard-section2-rate{
+    width: 130px;
+    height: 40px;
+    background-color: var(--dark-green);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.yeild-AllCard-section2-rate-add{
+  width: 80px;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.yeild-AllCard-section2-bottom-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.yeild-AllCard-section2-bottom-buyer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.yeild-AllCard-section2-bottom-icon-box{
+    display: flex;
+    
+    gap: 7px;
+}
+.yeild-AllCard-section2-bottom-icon1:hover{
+    transform: scale(1.05);
+}
+.yeild-AllCard-section2-bottom-icon2:hover{
+    transform: scale(1.05);
+}
+.yeild-AllCard-section2-bottom-icon{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: var(--dark-green);
+    border: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* yeild card adding */
+.yeild-addCard-form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yeild-addCard-form-box{
+    width: 900px;
+    height: 770px;
+    background-color: var(--lighter-green);
+    margin-top: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.yeild-addCard-form-box2{
+    width: 900px;
+    height: 940px;
+    background-color: var(--lighter-green);
+    margin-top: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.yeild-addCard-form-img{
+    width: 400px;
+    height: 740px;
+    border-radius: 5px;
+    background-image: url(../resources/yeild/addForm.jpg);
+    background-size: cover;
+
+}
+.yeild-updateCard-form-img2{
+  width: 400px;
+    height: 915px;
+    border-radius: 5px;
+    background-image: url(../resources/yeild/addForm.jpg);
+    background-size: cover;
+}
+.add-product-input{
+    width: 400px;
+    height: 35px;
+    /* border: none; */
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: var(--dark-green);
+}
+.yeild-addCard-form-label{
+    display: flex;
+    justify-content: start;
+    margin-left: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: var(--dark-green);
+}
+
+.yeild-addCard-form-btn{
+    width: 400px;
+    margin-left: 20px;
+    height: 40px;
+    background-color: var(--dark-green);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.yeild-addCard-form-btn:hover{
+    transform: scale(1.03);
+}
+
+/* update */
+.yeild-updateCard-form-img{
+    width: 400px;
+    height: 740px;
+    border-radius: 5px;
+    background-image: url(../resources/yeild/update.jpg);
+    background-size: cover;
+}
+
+
+  @media (min-width: 768px) {
+    .yeild-AllCard-section2-box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
